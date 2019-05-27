@@ -14,3 +14,9 @@
 ```
 ### Response
 `Status code: 201 (Created)`
+
+## GET
+### Request
+`curl -i -X GET localhost:3000/students`
+### Response
+`Status code: 200 (OK)`
