@@ -9,8 +9,8 @@
       "street": "Prästgatan 191",
       "city": "Nybro",
       "zipcode": "382 44" 
-      } 
-  }'
+     } 
+    }'
 ```
 ### Response
 `Status code: 201 (Created)`
