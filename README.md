@@ -21,6 +21,28 @@
 ### Response
 `Status code: 200 (OK)`
 ```
-
-[{"address":{"street":"Framtidsv�gen 10A","city":"V�xj�","zipcode":"352 57"},"_id":"5cebbb855c4e72054c585f63","email":"pelle.kanin@ecut.com","name":"Pelle Kanin","__v":0},{"address":{"street":"Pr�stgatan 191","city":"Nybro","zipcode":"382 44"},"_id":"5cebbd3d71597f0570bf0dc6","email":"fatme.mustafa@ecut.com","name":"Fatme Mustafa","__v":0}]
+[
+  {
+    "address": {
+      "street": "Framtidsvägen 10A",
+      "city": "Växjö",
+      "zipcode": "352 57"
+     },
+     "_id": "5cebbb855c4e72054c585f63",
+     "email": "pelle.kanin@ecut.com",
+     "name": "Pelle Kanin",
+     "__v":0
+  },
+  {
+    "address": {
+      "street": "Prästgatan 191",
+      "city": "Nybro",
+      "zipcode": "382 44"
+      },
+      "_id": "5cebbd3d71597f0570bf0dc6",
+      "email": "fatme.mustafa@ecut.com",
+      "name": "Fatme Mustafa",
+      "__v":0
+   }
+]
 ```
