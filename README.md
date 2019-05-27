@@ -13,5 +13,5 @@
   }'
 ```
 ### Response
-`Status code: 201 (Created)
-Fatme Mustafa has been added!`
+`Status code: 201 (Created)`
+`Fatme Mustafa has been added!`
