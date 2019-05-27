@@ -49,8 +49,23 @@
 ]
 ```
 
-## /students/{id}
+# /students/{id}
 
 ## GET
 ### Request
-`curl -i -X GET api.softhouse.rocks/posts/3`
+`curl -i -X GET localhost:3000/students/5cebbd3d71597f0570bf0dc6`
+### Response
+`Status code: 200 (OK)`
+```
+{
+  "address": {
+    "street": "Prästgatan 191",
+    "city": "Nybro",
+    "zipcode": "382 44"
+    },
+    "_id": "5cebbd3d71597f0570bf0dc6",
+    "email": "fatme.mustafa@ecut.com",
+    "name": "Fatme Mustafa",
+    "__v":0
+}
+```
