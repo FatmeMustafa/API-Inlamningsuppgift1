@@ -10,7 +10,8 @@
       "city": "Nybro",
       "zipcode": "382 44" 
      } 
-   }'
+  }'
 ```
 ### Response
-`Status code: 201 (Created)`
+`Status code: 201 (Created)
+Fatme Mustafa has been added!`
