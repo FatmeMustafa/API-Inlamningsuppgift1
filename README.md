@@ -1,3 +1,5 @@
+# /students
+
 ## POST
 ### Request
 ```
@@ -46,3 +48,9 @@
    }
 ]
 ```
+
+## /students/{id}
+
+## GET
+### Request
+`curl -i -X GET api.softhouse.rocks/posts/3`
