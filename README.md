@@ -1,3 +1,14 @@
+# /Instructions
+```
+npm init
+npm install --save express
+
+npm install --save mongoose
+
+npm install
+npm start
+```
+
 # /students
 
 ## POST
