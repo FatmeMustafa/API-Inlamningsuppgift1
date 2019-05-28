@@ -1,4 +1,4 @@
-# /Instructions
+# Instructions
 ```
 npm init
 npm install --save express
