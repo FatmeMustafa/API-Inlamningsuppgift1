@@ -49,7 +49,7 @@
 ]
 ```
 
-# /students/?name=Fatme%20Mustafa
+# /students/{name}
 
 ## GET
 ### Request
