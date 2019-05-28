@@ -65,7 +65,29 @@
     },
     "_id": "5cebbd3d71597f0570bf0dc6",
     "email": "fatme.mustafa@ecut.com",
-    "name": "Fatme Mustafa",
-    "__v":0
+    "name": "Fatme Mustafa"
 }
 ```
+
+## PUT
+### Request
+```
+curl -i -X PUT localhost:3000/students/5cebbd3d71597f0570bf0dc6 -H "Content-type:application/json" -d '{
+  "address": {
+    "street": "Prästgatan 200",
+    "city": "Nybro",
+    "zipcode": "382 44"
+    },
+    "_id": "5cebbd3d71597f0570bf0dc6",
+    "email": "fatima.mustafa@ecut.com",
+    "name": "Fatima Mustafa"
+}'
+```
+### Response
+`Status code: 200 (OK)`
+
+## DELETE
+### Request
+`curl -i -X DELETE localhost:3000/students/5cebbd3d71597f0570bf0dc6`
+### Response
+`Status code: 200 (OK)`
