@@ -2,10 +2,9 @@
 
 ## Table of Contents  
 [Headers](#headers)  
-
+...snip... 
 <a name="headers"/>
 ## Headers
-
 
 
 
