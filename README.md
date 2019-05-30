@@ -1,7 +1,6 @@
 # API - Inlamningsuppgift1
 
-<br/><br/>
-
+\\\
 ## Purpose
 The purpose is
 
