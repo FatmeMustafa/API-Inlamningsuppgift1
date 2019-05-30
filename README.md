@@ -26,7 +26,9 @@ npm install
 npm start
 ```
 
-
+## Theory
+### Question 1
+#### How is the HTTP protocol used when browsing a web page? Describe which method, path, URI, response code and body are submitted and answered for http://www.smp.se/kultur-noje/.
 
 
 
