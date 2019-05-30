@@ -1,7 +1,5 @@
 # API - Inlamningsuppgift1
 
-<br/>
-
 ## Purpose
 API-Inlamningsuppgift1 consists of a theoretical and a practical part . 
 
@@ -10,7 +8,6 @@ The theoretical part covers instructions for how to start the application as wel
 The practical part invloves creating a backend for the new BongBong learning platform.
 The application should be written in node/express and save student information in a Mongo database.
 <br/>
-
 ## Instructions
 ```
 //installing express:
