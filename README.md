@@ -5,7 +5,7 @@
 ## Purpose
 API-Inlamningsuppgift1 consists of a theoretical and a practical part . 
 
-The theoretical part covers instructions for how to start the application as well as some questions, which will be answered in this README.md file.
+The theoretical part covers instructions for how to start the application as well as some questions, which will be answered in this README.md file along with a design document to show how the different HTTP methods was used with cURL, feedback on the API course and assignment.
 
 The practical part invloves creating a backend for the new BongBong learning platform.
 The application should be written in node/express and save student information in a Mongo database.
@@ -54,20 +54,18 @@ A URI (Uniform Resource Identifier) is a textual identifier of how to reach a re
 * Query string => follows the path and provides a string of information that the resource can use for some purpose (username=something). 
 
 ### Question 4
-#### "http://localhost:3000/users?username=something" is a URI, describe what parts it consists of and what they are called.
-Path parameters: 
-curl -X GET "localhost:3000/students/5cece29f0cef6b4c8e00dbf5" | jq
-Query parameters & Header:
-curl -X GET "localhost:3000/students?name=TheNameYouSearchFor" -H "Content-Type: application/json; charset=utf-8" | jq
+#### In what three ways can you send parameters in an HTTP request? Give examples with curl.
+* Path parameters => see /students/{id}
+* Query parameters => see /students/{name}
+* Header => see /students/{name}
 
+<br/> <br/>
 
+## Design Document
 
+<br/>
 
-
-
-
-
-# /students
+## /students
 
 ## POST
 ### Request
