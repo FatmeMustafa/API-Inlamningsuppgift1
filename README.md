@@ -59,7 +59,7 @@ A URI (Uniform Resource Identifier) is a textual identifier of how to reach a re
 * Query parameters => see /students/{name}
 * Header => see /students/{name}
 
-<br/> <br/>
+<br/>
 
 ## Design Document
 
