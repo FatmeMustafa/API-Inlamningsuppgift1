@@ -63,12 +63,10 @@ A URI (Uniform Resource Identifier) is a textual identifier of how to reach a re
 
 ## Design Document
 
-<br/>
+### /students
 
-## /students
-
-## POST
-### Request
+#### POST
+##### Request
 ```
   curl -i -X POST -H "Content-Type:application/json" localhost:3000/students -d '{
     "_id": "", 
@@ -81,13 +79,13 @@ A URI (Uniform Resource Identifier) is a textual identifier of how to reach a re
      } 
   }'
 ```
-### Response
+##### Response
 `Status code: 201 (Created)`
 
-## GET
-### Request
+#### GET
+##### Request
 `curl -i -X GET localhost:3000/students`
-### Response
+##### Response
 `Status code: 200 (OK)`
 ```
 [
@@ -116,12 +114,12 @@ A URI (Uniform Resource Identifier) is a textual identifier of how to reach a re
 ]
 ```
 
-# /students/{name}
+### /students/{name}
 
-## GET
-### Request
+#### GET
+##### Request
 `curl -i -X GET localhost:3000/students/?name=Fatme%20Mustafa`
-### Response
+##### Response
 `Status code: 200 (OK)`
 ```
 {
@@ -136,12 +134,12 @@ A URI (Uniform Resource Identifier) is a textual identifier of how to reach a re
 }
 ```
 
-# /students/{id}
+### /students/{id}
 
-## GET
-### Request
+#### GET
+##### Request
 `curl -i -X GET localhost:3000/students/5cebbd3d71597f0570bf0dc6`
-### Response
+##### Response
 `Status code: 200 (OK)`
 ```
 {
@@ -156,8 +154,8 @@ A URI (Uniform Resource Identifier) is a textual identifier of how to reach a re
 }
 ```
 
-## PUT
-### Request
+#### PUT
+##### Request
 ```
 curl -i -X PUT localhost:3000/students/5cebbd3d71597f0570bf0dc6 -H "Content-type:application/json" -d '{
   "address": {
@@ -170,11 +168,11 @@ curl -i -X PUT localhost:3000/students/5cebbd3d71597f0570bf0dc6 -H "Content-type
     "name": "Fatima Mustafa"
 }'
 ```
-### Response
+##### Response
 `Status code: 200 (OK)`
 
-## DELETE
-### Request
+#### DELETE
+##### Request
 `curl -i -X DELETE localhost:3000/students/5cebbd3d71597f0570bf0dc6`
-### Response
+##### Response
 `Status code: 200 (OK)`
