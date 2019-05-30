@@ -3,10 +3,12 @@
 <br/>
 
 ## Purpose
-The purpose is
+API-Inlamningsuppgift1 consists of a practical and a theoretical part. 
 
+The practical part invloves creating a backend for the new BongBong learning platform.
+The application should be written in node/express and save student information in a Mongo database.
 
-
+The theoretical part covers instructions for how to start the application as well as some questions, which will be answered in this README.md file.
 
 
 
