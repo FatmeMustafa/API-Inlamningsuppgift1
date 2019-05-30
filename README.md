@@ -180,3 +180,10 @@ curl -i -X PUT localhost:3000/students/5cebbd3d71597f0570bf0dc6 -H "Content-type
 <br/>
 
 ## Feedback
+Overall, I think there is a good balance in terms of time between theory and practice. 
+
+The teacher allows us time to apply the theory in practice and provides us with good code examples to follow. Although the examples are easy to follow, the code is sometimes difficult to fully understand. It would have helped me to see more commented code that explains what the code does. 
+
+In terms of the course material, I believe there is room for improvements. It was very difficult for me to keep up with the course when I was not at school. The theory and the code examples discussed in class were not clearly explained on Slack or PowerPoint. I would for example see code snippets on Slack and not know what the code was for. I would like more PowerPoint slides on the exact theory discussed in class along with more detailed explanations on the slides, since they seemed too general. I would also appreciate more detailed explanations of code on the screen. I have sometimes felt that the teacher went through the code a little too fast.
+
+However, I do appreciate the teacher recording the lectures. I believe this will especially come in handy when explaining long complex code. I’m also very grateful that the teacher offers all the coaching the student needs. He is very positive and helpfull everytime one asks him for help.
