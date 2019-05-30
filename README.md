@@ -7,6 +7,7 @@ The theoretical part covers instructions for how to start the application as wel
 
 The practical part invloves creating a backend for the new BongBong learning platform.
 The application should be written in node/express and save student information in a Mongo database.
+
 <br/>
 
 ## Instructions
@@ -22,6 +23,7 @@ npm install --save mongoose
 npm install
 npm start
 ```
+
 <br/>
 
 ## Theory
