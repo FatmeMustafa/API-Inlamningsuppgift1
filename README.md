@@ -3,27 +3,38 @@
 <br/>
 
 ## Purpose
-API-Inlamningsuppgift1 consists of a practical and a theoretical part. 
+API-Inlamningsuppgift1 consists of a theoretical and a practical part . 
+
+The theoretical part covers instructions for how to start the application as well as some questions, which will be answered in this README.md file.
 
 The practical part invloves creating a backend for the new BongBong learning platform.
 The application should be written in node/express and save student information in a Mongo database.
 
-The theoretical part covers instructions for how to start the application as well as some questions, which will be answered in this README.md file.
+<br/>
 
-
-
-
-
-# Instructions
+## Instructions
 ```
+//installing express:
 npm init
 npm install --save express
 
+//installing mongoose:
 npm install --save mongoose
 
+//starting application:
 npm install
 npm start
 ```
+
+
+
+
+
+
+
+
+
+
 
 # /students
 
