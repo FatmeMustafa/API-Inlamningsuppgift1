@@ -1,5 +1,7 @@
 # API - Inlamningsuppgift1
 
+<br/>
+
 ## Purpose
 API-Inlamningsuppgift1 consists of a theoretical and a practical part . 
 
@@ -29,9 +31,11 @@ npm start
 ## Theory
 ### Question 1
 #### How is the HTTP protocol used when browsing a web page? Describe which method, path, URI, response code and body are submitted and answered for http://www.smp.se/kultur-noje/?
-* d
-* s
-* ss
+* Method -> GET
+* Path -> kultur-noje
+* URI -> http://www.smp.se/kultur-noje/
+* Response code -> 200
+* HTML
 
 
 
