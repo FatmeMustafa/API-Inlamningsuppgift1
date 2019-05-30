@@ -37,8 +37,6 @@ npm start
 * Response code => 200
 * Body => HTML
 
-<br/>
-
 ### Question 2
 #### Describe the most common methods of the HTTP protocol and what they do.
 * GET => retrieve data from a server using a given URI. All requests using GET should only retrieve data and not have any effect on the data.
@@ -47,8 +45,6 @@ npm start
 * PUT => updates an existing resource.
 * PATCH => is not often used, but applies partial modifications to the resource. It only needs to contain the changes to the resource, not the complete recourse.
 
-<br/>
-
 ### Question 3
 #### "http://localhost:3000/users?username=something" is a URI, describe what parts it consists of and what they are called.
 A URI (Uniform Resource Identifier) is a textual identifier of how to reach a resource. It has two specializations known as URL (Uniform Resource Locator), which defines how the resource can be obtained, and a URN (Uniform Recourse Name), which identifies a resource by name in a given namespace.
@@ -56,8 +52,6 @@ A URI (Uniform Resource Identifier) is a textual identifier of how to reach a re
 * Host => holds the resource. It includes a hostname (localhost) followed by the port number separated by colon (3000).
 * Path => identifies the specific resource in the host that the user wants to access (/users).
 * Query string => follows the path and provides a string of information that the resource can use for some purpose (username=something). 
-
-<br/>
 
 ### Question 4
 #### "http://localhost:3000/users?username=something" is a URI, describe what parts it consists of and what they are called.
