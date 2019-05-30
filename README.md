@@ -25,10 +25,15 @@ npm install --save mongoose
 npm install
 npm start
 ```
+<br/>
 
 ## Theory
 ### Question 1
-#### How is the HTTP protocol used when browsing a web page? Describe which method, path, URI, response code and body are submitted and answered for http://www.smp.se/kultur-noje/.
+#### How is the HTTP protocol used when browsing a web page? Describe which method, path, URI, response code and body are submitted and answered for http://www.smp.se/kultur-noje/?
+* d
+* s
+* ss
+
 
 
 
